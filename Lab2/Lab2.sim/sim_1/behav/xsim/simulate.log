@@ -1,0 +1,23 @@
+Time resolution is 1 ps
+#### tb_single_cycle.sv ####
+==== Test  0 RUNNING ====
+number of instructions: 29 , exit @ 0x00400074
+run 25 cycles
+==== Test  0 PASSED ====
+==== Test  1 RUNNING ====
+number of instructions: 22 , exit @ 0x00400058
+run 16 cycles
+$3 expect 0x0000111b found 0x0000000a
+$8 expect 0x10008000 found 0x10008001
+$10 expect 0x00000000 found 0xfffffffe
+$13 expect 0x10008000 found 0x10008001
+$17 expect 0x00000001 found 0x00000000
+$19 expect 0x00000003 found 0x00000000
+0x10008000 expect 0x10008000 found 0x00000000
+0x10008010 expect 0x0000111b found 0x0000000a
+==== Test  1 FAILED ====
+#### Test Result ####
+Passed  1 : 0
+Failed  1 : 1
+#### some failed.
+$finish called at time : 172 ns : File "C:/Users/tisne/Desktop/Computer Organization/Lab2/testbench/tb_single_cycle.sv" Line 66

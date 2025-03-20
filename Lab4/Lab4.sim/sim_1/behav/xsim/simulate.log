@@ -1,0 +1,31 @@
+Time resolution is 1 ps
+#### tb_pipelined.sv ####
+==== Test  0 RUNNING ====
+number of instructions: 20 , exit @ 0x00400050
+run 22 cycles
+==== Test  0 PASSED ====
+==== Test  1 RUNNING ====
+number of instructions: 20 , exit @ 0x00400050
+run 22 cycles
+==== Test  1 PASSED ====
+==== Test  2 RUNNING ====
+number of instructions: 20 , exit @ 0x00400050
+run 22 cycles
+==== Test  2 PASSED ====
+==== Test  3 RUNNING ====
+number of instructions: 20 , exit @ 0x00400050
+run 23 cycles
+==== Test  3 PASSED ====
+==== Test  4 RUNNING ====
+number of instructions: 20 , exit @ 0x00400050
+run 23 cycles
+==== Test  4 PASSED ====
+==== Test  5 RUNNING ====
+number of instructions: 22 , exit @ 0x00400058
+run 23 cycles
+==== Test  5 PASSED ====
+#### Test Result ####
+Passed  6 : 0 1 2 3 4 5
+Failed  0 :
+#### all passed!
+$finish called at time : 564 ns : File "C:/Users/tisne/Desktop/Computer Organization/Lab4/testbench/tb_pipelined.sv" Line 66
